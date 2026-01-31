@@ -76,6 +76,10 @@ qstat jobid
 ```
 
 ### Check output of run
+```bash
 cat deliverable2.out
+```
 ## Or errors
+```bash
 cat deliverable2.err
+```
