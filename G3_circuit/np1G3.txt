@@ -1,0 +1,25 @@
+=== Distributed SpMV Performance ===
+Processes:          1
+Matrix dimensions:  1585478 x 1585478
+Global NNZ:         4623152
+
+Breakdown: 75.0232% Comp, 24.9768% Comm
+Read time (seq):    2.75699 s
+Read time (MPI-IO): 4.56131 s
+Conversion time:    0.114236 s
+SpMV time (max):    0.0426395 s
+Gather time:        0.0141956 s
+Total time:         8.32664 s
+
+First 10 elements of result vector:
+2.54843 0.548424 2.54842 0.548424 2.54842 0.548424 2.54842 0.548424 2.54842 0.548424
+
+=== Performance Metrics ===
+Global Performance: 0.216848 GFLOP/s
+
+Load Balance Analysis:
+Min NNZ per rank: 4623152
+Max NNZ per rank: 4623152
+Avg NNZ per rank: 4.62315e+06
+Imbalance ratio: 0
+[Rank 0] Local NNZ: 4623152, Memory: 83.1484 MB, Sent: 12386.5 KB, MPI-IO Read: 4.56131 s

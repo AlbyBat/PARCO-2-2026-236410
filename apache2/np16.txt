@@ -1,0 +1,44 @@
+[Rank 9] Local NNZ: 172851, Memory: 2.83067 MB, Sent: 349.203 KB, MPI-IO Read: 0.682386 s
+[Rank 5] Local NNZ: 173002, Memory: 2.83242 MB, Sent: 349.211 KB, MPI-IO Read: 0.684101 s
+[Rank 11] Local NNZ: 172850, Memory: 2.83066 MB, Sent: 349.203 KB, MPI-IO Read: 0.685352 s
+[Rank 13] Local NNZ: 172999, Memory: 2.83237 MB, Sent: 349.203 KB, MPI-IO Read: 0.685948 s
+[Rank 10] Local NNZ: 172850, Memory: 2.83066 MB, Sent: 349.203 KB, MPI-IO Read: 0.685903 s
+[Rank 6] Local NNZ: 173002, Memory: 2.83242 MB, Sent: 349.211 KB, MPI-IO Read: 0.683179 s
+[Rank 7] Local NNZ: 173001, Memory: 2.83241 MB, Sent: 349.211 KB, MPI-IO Read: 0.689672 s
+[Rank 14] Local NNZ: 172999, Memory: 2.83237 MB, Sent: 349.203 KB, MPI-IO Read: 0.686418 s
+[Rank 15] Local NNZ: 173000, Memory: 2.83238 MB, Sent: 349.203 KB, MPI-IO Read: 0.690774 s
+[Rank 3] Local NNZ: 172854, Memory: 2.83073 MB, Sent: 349.211 KB, MPI-IO Read: 0.691355 s
+[Rank 12] Local NNZ: 172851, Memory: 2.83067 MB, Sent: 349.203 KB, MPI-IO Read: 0.701416 s
+[Rank 8] Local NNZ: 172851, Memory: 2.83067 MB, Sent: 349.203 KB, MPI-IO Read: 0.708557 s
+[Rank 4] Local NNZ: 172853, Memory: 2.83072 MB, Sent: 349.211 KB, MPI-IO Read: 0.711394 s
+[Rank 2] Local NNZ: 172854, Memory: 2.83073 MB, Sent: 349.211 KB, MPI-IO Read: 1.14277 s
+[Rank 1] Local NNZ: 172853, Memory: 2.83072 MB, Sent: 349.211 KB, MPI-IO Read: 1.20376 s
+
+=== Distributed SpMV Performance ===
+Processes:          16
+Matrix dimensions:  715176 x 715176
+Global NNZ:         2766523
+
+Breakdown: 16.7746% Comp, 83.2254% Comm
+Read time (seq):    6.04881 s
+Read time (MPI-IO): 1.24013 s
+Conversion time:    0.00349801 s
+SpMV time (max):    0.0228779 s
+Gather time:        0.113506 s
+Total time:         8.11984 s
+
+First 10 elements of result vector:
+810.056 1245.11 1245.11 1245.11 1245.11 1245.11 1245.11 1245.11 1245.11 1245.11
+
+=== Performance Metrics ===
+Global Performance: 0.241851 GFLOP/s
+Reference T1:       0.104105 s
+Real Speedup:       4.55046x
+Parallel Efficiency:28.4403 %
+
+Load Balance Analysis:
+Min NNZ per rank: 172850
+Max NNZ per rank: 173002
+Avg NNZ per rank: 172908
+Imbalance ratio: 0.000879082
+[Rank 0] Local NNZ: 172853, Memory: 2.83072 MB, Sent: 349.211 KB, MPI-IO Read: 1.24013 s

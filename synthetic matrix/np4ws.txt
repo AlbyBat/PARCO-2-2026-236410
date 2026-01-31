@@ -1,0 +1,30 @@
+Running Weak Scaling with 100000 rows per rank
+[Rank 1] Local NNZ: 100000, Memory: 3.05176 MB, Sent: 781.25 KB, MPI-IO Read: 0 s
+[Rank 2] Local NNZ: 100000, Memory: 3.05176 MB, Sent: 781.25 KB, MPI-IO Read: 0 s
+[Rank 3] Local NNZ: 100000, Memory: 3.05176 MB, Sent: 781.25 KB, MPI-IO Read: 0 s
+
+=== Distributed SpMV Performance ===
+Processes:          4
+Matrix dimensions:  400000 x 400000
+Global NNZ:         400000
+
+Breakdown: 37.97% Comp, 62.03% Comm
+Read time (seq):    0 s
+Read time (MPI-IO): 0 s
+Conversion time:    0.00330275 s
+SpMV time (max):    0.00494247 s
+Gather time:        0.00807342 s
+Total time:         0.172722 s
+
+First 10 elements of result vector:
+0.242816 0.978286 0.307435 0.800821 0.588773 0.592121 0.53382 0.264297 0.3889 0.445942
+
+=== Performance Metrics ===
+Global Performance: 0.161862 GFLOP/s
+
+Load Balance Analysis:
+Min NNZ per rank: 100000
+Max NNZ per rank: 100000
+Avg NNZ per rank: 100000
+Imbalance ratio: 0
+[Rank 0] Local NNZ: 100000, Memory: 3.05176 MB, Sent: 781.25 KB, MPI-IO Read: 0 s

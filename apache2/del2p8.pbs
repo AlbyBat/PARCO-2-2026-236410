@@ -1,0 +1,15 @@
+#!/bin/bash
+#PBS -N deliverable2
+#PBS -o ./deliverable2.out
+#PBS -e ./deliverable2.err
+#PBS -q short_cpuQ
+#PBS -l walltime=0:10:00
+#PBS -l select=8:ncpus=1:mem=4gb
+
+cd deliverable2
+
+module load gcc91
+module load openmpi-4.0.4
+
+mpirun -np 8 ./deliverable2.x apache2.mtx 0.104105
+

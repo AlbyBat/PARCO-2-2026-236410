@@ -1,0 +1,60 @@
+[Rank 31] Local NNZ: 144515, Memory: 2.59886 MB, Sent: 387.078 KB, MPI-IO Read: 0.41493 s
+[Rank 30] Local NNZ: 144473, Memory: 2.59838 MB, Sent: 387.078 KB, MPI-IO Read: 0.416605 s
+[Rank 22] Local NNZ: 144476, Memory: 2.59842 MB, Sent: 387.078 KB, MPI-IO Read: 0.416978 s
+[Rank 23] Local NNZ: 144509, Memory: 2.59879 MB, Sent: 387.078 KB, MPI-IO Read: 0.417101 s
+[Rank 26] Local NNZ: 144472, Memory: 2.59837 MB, Sent: 387.078 KB, MPI-IO Read: 0.414561 s
+[Rank 27] Local NNZ: 144511, Memory: 2.59882 MB, Sent: 387.078 KB, MPI-IO Read: 0.417238 s
+[Rank 28] Local NNZ: 144470, Memory: 2.59835 MB, Sent: 387.078 KB, MPI-IO Read: 0.414433 s
+[Rank 29] Local NNZ: 144513, Memory: 2.59884 MB, Sent: 387.078 KB, MPI-IO Read: 0.417443 s
+[Rank 25] Local NNZ: 144509, Memory: 2.59879 MB, Sent: 387.078 KB, MPI-IO Read: 0.419805 s
+[Rank 24] Local NNZ: 144471, Memory: 2.59836 MB, Sent: 387.078 KB, MPI-IO Read: 0.418034 s
+[Rank 20] Local NNZ: 144477, Memory: 2.59843 MB, Sent: 387.078 KB, MPI-IO Read: 0.419719 s
+[Rank 21] Local NNZ: 144513, Memory: 2.59884 MB, Sent: 387.078 KB, MPI-IO Read: 0.420339 s
+[Rank 19] Local NNZ: 144514, Memory: 2.59885 MB, Sent: 387.078 KB, MPI-IO Read: 0.422173 s
+[Rank 18] Local NNZ: 144478, Memory: 2.59844 MB, Sent: 387.078 KB, MPI-IO Read: 0.425621 s
+[Rank 5] Local NNZ: 144515, Memory: 2.59888 MB, Sent: 387.086 KB, MPI-IO Read: 0.425679 s
+[Rank 17] Local NNZ: 144512, Memory: 2.59883 MB, Sent: 387.078 KB, MPI-IO Read: 0.427181 s
+[Rank 3] Local NNZ: 144514, Memory: 2.59887 MB, Sent: 387.086 KB, MPI-IO Read: 0.428739 s
+[Rank 14] Local NNZ: 144476, Memory: 2.59842 MB, Sent: 387.078 KB, MPI-IO Read: 0.426201 s
+[Rank 15] Local NNZ: 144510, Memory: 2.5988 MB, Sent: 387.078 KB, MPI-IO Read: 0.430025 s
+[Rank 2] Local NNZ: 144482, Memory: 2.5985 MB, Sent: 387.086 KB, MPI-IO Read: 0.430887 s
+[Rank 1] Local NNZ: 144517, Memory: 2.5989 MB, Sent: 387.086 KB, MPI-IO Read: 0.431771 s
+[Rank 16] Local NNZ: 144475, Memory: 2.5984 MB, Sent: 387.078 KB, MPI-IO Read: 0.432531 s
+[Rank 9] Local NNZ: 144506, Memory: 2.59876 MB, Sent: 387.078 KB, MPI-IO Read: 0.43282 s
+[Rank 7] Local NNZ: 144511, Memory: 2.59882 MB, Sent: 387.078 KB, MPI-IO Read: 0.433424 s
+[Rank 6] Local NNZ: 143847, Memory: 2.59122 MB, Sent: 387.078 KB, MPI-IO Read: 0.43059 s
+[Rank 4] Local NNZ: 144479, Memory: 2.59847 MB, Sent: 387.086 KB, MPI-IO Read: 0.426228 s
+[Rank 13] Local NNZ: 144505, Memory: 2.59875 MB, Sent: 387.078 KB, MPI-IO Read: 0.434642 s
+[Rank 12] Local NNZ: 144474, Memory: 2.59839 MB, Sent: 387.078 KB, MPI-IO Read: 0.428105 s
+[Rank 10] Local NNZ: 144472, Memory: 2.59837 MB, Sent: 387.078 KB, MPI-IO Read: 0.436408 s
+[Rank 11] Local NNZ: 144507, Memory: 2.59877 MB, Sent: 387.078 KB, MPI-IO Read: 0.436592 s
+[Rank 8] Local NNZ: 144471, Memory: 2.59836 MB, Sent: 387.078 KB, MPI-IO Read: 0.445633 s
+
+=== Distributed SpMV Performance ===
+Processes:          32
+Matrix dimensions:  1585478 x 1585478
+Global NNZ:         4623152
+
+Breakdown: 9.48628% Comp, 90.5137% Comm
+Read time (seq):    2.54059 s
+Read time (MPI-IO): 0.45373 s
+Conversion time:    0.00303823 s
+SpMV time (max):    0.00561788 s
+Gather time:        0.0536033 s
+Total time:         3.20395 s
+
+First 10 elements of result vector:
+2.54843 0.548424 2.54842 0.548424 2.54842 0.548424 2.54842 0.548424 2.54842 0.548424
+
+=== Performance Metrics ===
+Global Performance: 1.64587 GFLOP/s
+Reference T1:       0.0426395 s
+Real Speedup:       7.58996x
+Parallel Efficiency:23.7186 %
+
+Load Balance Analysis:
+Min NNZ per rank: 143847
+Max NNZ per rank: 144517
+Avg NNZ per rank: 144474
+Imbalance ratio: 0.00463753
+[Rank 0] Local NNZ: 144478, Memory: 2.59846 MB, Sent: 387.086 KB, MPI-IO Read: 0.45373 s

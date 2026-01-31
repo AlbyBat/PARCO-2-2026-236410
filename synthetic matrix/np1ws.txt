@@ -1,0 +1,27 @@
+Running Weak Scaling with 100000 rows per rank
+
+=== Distributed SpMV Performance ===
+Processes:          1
+Matrix dimensions:  100000 x 100000
+Global NNZ:         100000
+
+Breakdown: 65.7912% Comp, 34.2088% Comm
+Read time (seq):    0 s
+Read time (MPI-IO): 0 s
+Conversion time:    0.00300008 s
+SpMV time (max):    0.00108708 s
+Gather time:        0.000565238 s
+Total time:         0.0268827 s
+
+First 10 elements of result vector:
+0.242816 0.588773 0.3889 0.632902 0.978477 0.376708 0.447648 0.426826 0.985194 0.876383
+
+=== Performance Metrics ===
+Global Performance: 0.183979 GFLOP/s
+
+Load Balance Analysis:
+Min NNZ per rank: 100000
+Max NNZ per rank: 100000
+Avg NNZ per rank: 100000
+Imbalance ratio: 0
+[Rank 0] Local NNZ: 100000, Memory: 3.05176 MB, Sent: 781.25 KB, MPI-IO Read: 0 s
