@@ -57,6 +57,7 @@ To compile the project with O3 optimization:
 module load gcc91
 module load openmpi-4.0.4
 mpicxx -O3 -o deliverable2.x deliverable2.cpp
+module purge
 ```
 
 
