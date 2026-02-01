@@ -25,7 +25,7 @@ mpicxx -O3 -o deliverable2.x deliverable2.cpp
 
 ## Execution
 
-### 1. Local Execution (WSL/Linux)
+### Local Execution (WSL/Linux)
 To run the benchmark on your local machine, use the `mpirun` command. You must specify the number of processes and the path to the Matrix Market file.
 
 ```bash
@@ -43,7 +43,7 @@ mpirun -np 32 ./deliverable2.x
 The benchmark is designed to run on a cluster using the PBS  scheduler. Resource allocation is handled via `.pbs` script files.
 Follow these steps to transfer, compile, and execute the project on the HPC cluster.
 
-### 1. Project Setup
+### Project Setup
 Log in to the cluster and create a dedicated directory for the deliverable:
 ```bash
 # On the HPC terminal
@@ -61,7 +61,7 @@ module purge
 ```
 
 
-### 1. Job Script Configuration
+### Job Script Configuration
 
 Examples:
 ```bash
